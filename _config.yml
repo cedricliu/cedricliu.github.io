@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -21,8 +21,8 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "kai"
 description              : "Welcome tothe intersection of Artificial Intelligence and Digital Art. Explore thought-provoking articles, reviews, and insights that delve into the revolutionary world of AI-driven creativity. Whether you're an artist, technologist, or just curious about the future, discover how AI is redefining the boundaries of art and technology. Don't miss our curated selection of the latest AI and digital art products that are transforming the industry"
-url                      : https://cedricliu.github.io
-baseurl                  : /blog
+url                      : #https://cedricliu.github.io
+baseurl                  : #/blog
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
