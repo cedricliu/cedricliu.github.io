@@ -279,6 +279,7 @@ DEPENDENCIES
   jekyll (~> 3.9)
   jekyll-data
   jekyll-include-cache
+  jekyll-remote-theme
   minimal-mistakes-jekyll
   wdm (>= 0.1.0)
   webrick
