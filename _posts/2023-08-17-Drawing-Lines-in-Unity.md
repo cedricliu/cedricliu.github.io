@@ -1,5 +1,6 @@
 ---
 layout: single
+classes: wide
 title: Drawing Lines in Unity
 date: 2023-08-17 09:29:59 -0700
 categories: ComputerGraphics 
