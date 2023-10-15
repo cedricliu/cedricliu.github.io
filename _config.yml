@@ -231,6 +231,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
   - jekyll-seo-tag
+  - Jekyll Group-By-Array
 
 # mimic GitHub Pages with --safe
 whitelist:
