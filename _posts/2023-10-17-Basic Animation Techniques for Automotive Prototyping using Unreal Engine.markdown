@@ -2,7 +2,7 @@
 layout: single
 title:  Basic Animation Techniques for Automotive Prototyping using Unreal Engine
 date:   2023-10-17 00:24:59 -0700
-categories: GameEngine, animation
+categories: GameEngine Animation
 excerpt: Explore how Unreal Engine revolutionizes automotive prototyping through advanced animation techniques. Master keyframes, splines, and multi-camera setups to bring your designs to life.
 header:
     image: /assets/images/Spline_in_Sequence.webp
@@ -50,5 +50,5 @@ Animation isn't just a feature; it's an integral part of the design process, inf
 ## Additional Sources:
 
 1. [[**Blenders Armature For Beginners_The Basics To Get Started**]](https://www.youtube.com/watch?v=jbFjTFFwPsM) 
-2. [[**Rigging a vehicle/car in Blender for Unreal Engine 5 animations]**](https://www.youtube.com/watch?v=0lwKWxBeFcQ)
+2. [[**Rigging a vehicle/car in Blender for Unreal Engine 5 animations**]](https://www.youtube.com/watch?v=0lwKWxBeFcQ)
 3. [[**Creating a CONTROL RIG for cars in Unreal Engine 5 for animation using Sequencer**]](https://www.youtube.com/watch?v=0PO4M4hvqpg)
