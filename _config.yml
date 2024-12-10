@@ -15,9 +15,9 @@ minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Cedric Liu"
+title                    : "Cedric Liu's Blog"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Notes on Industrial 3D Technical Solutions" # site tagline that appears below site title in masthead
 name                     : "kai"
 description              : "A blog for industrial 3D technical solution"
 url                      : https://www.cedricliu.github.io
@@ -29,9 +29,9 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "your-disqus-shortname" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -89,9 +89,15 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : "Person" # Person or Organization (defaults to Person)
+  name                   : "Cedric Liu" # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/cedricliu"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/cedricliu"
 
 # Analytics
 analytics:
@@ -131,6 +137,12 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/cedricliu"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/cedricliu"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
@@ -296,3 +308,7 @@ defaults:
       comments: # true
       share: true
       related: true
+
+# filepath: /D:/Github/mysite/cedricliu.github.io/_config.yml
+github:
+  token: your_personal_access_token

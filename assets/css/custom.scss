@@ -1,0 +1,31 @@
+---
+# Only the front matter is needed for Jekyll to process the file
+---
+
+/* Custom styles */
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+#password-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Full viewport height */
+}
+
+#password-form label,
+#password-form input,
+#password-form button {
+    margin: 5px;
+}
+
+#protected-content {
+    margin-top: 20px;
+}
