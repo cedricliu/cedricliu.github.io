@@ -1,8 +1,12 @@
 ---
-# Only the front matter is needed for Jekyll to process the file
 ---
+ @charset "utf-8";
+ 
+ @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; //skin
+ @import "minimal-mistakes"; // main partials
+ //@import "custom";
+// @import "minimal-mistakes/variables";
+// @import "minimal-mistakes/layout";
 
-@import "minimal-mistakes/variables";
-@import "minimal-mistakes/layout";
-// ...other imports...
-@import "custom";
+
+ 

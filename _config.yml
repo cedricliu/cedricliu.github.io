@@ -97,7 +97,7 @@ social:
       url: "https://github.com/cedricliu"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/cedricliu"
+      url: "https://linkedin.com/in/cedricliu0019"
 
 # Analytics
 analytics:
@@ -142,7 +142,7 @@ footer:
       url: "https://github.com/cedricliu"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/cedricliu"
+      url: "https://linkedin.com/in/cedricliu0019"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
@@ -312,3 +312,9 @@ defaults:
 # filepath: /D:/Github/mysite/cedricliu.github.io/_config.yml
 github:
   token: your_personal_access_token
+
+
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/

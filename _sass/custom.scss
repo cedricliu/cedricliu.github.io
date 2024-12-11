@@ -29,3 +29,23 @@ body {
 #protected-content {
     margin-top: 20px;
 }
+
+/* Custom styles */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+.portfolio-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+}
+  
+.portfolio-item img {
+  max-width: 100%;
+  height: auto;
+}
