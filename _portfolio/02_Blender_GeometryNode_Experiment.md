@@ -3,7 +3,7 @@ title: "Blender_GN_Experiment"
 layout: single
 classes: wide
 published: true
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+excerpt: "Experiment with geomtry node for point cloud simulations. Finding ways to visually communicate design in early prototyping phase."
 header:
   # video:
   #   id: hvH1B8AQMQg

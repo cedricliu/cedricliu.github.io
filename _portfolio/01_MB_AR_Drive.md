@@ -3,7 +3,7 @@ title: "MB_AR_Drive"
 layout: single
 classes: wide
 published: true
-excerpt: "Baz Boom design system including logo mark, website design, and branding applications."
+excerpt: "Mercedes-Benz’s groundbreaking AR Drive concept, a project that redefines the driving experience by merging the physical and digital worlds through immersive Augmented Reality (AR)."
 header:
   video:
     id: hvH1B8AQMQg
