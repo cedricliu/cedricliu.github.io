@@ -4,7 +4,7 @@ layout: single
 permalink: /about/
 ---
 
-## About Me
+<h2>About Me</h2>
 
 As a Technical Artist, I excel at merging creativity with technology in 3D modeling, real-time rendering, and augmented reality (AR) development. Proficient in tools like Blender, Unity, Unreal Engine, and Python scripting, I focus on optimizing workflows and delivering high-performance visual assets.
 
