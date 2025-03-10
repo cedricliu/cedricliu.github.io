@@ -21,7 +21,7 @@ subtitle                 : "Notes on Industrial 3D graphic Technical Solutions" 
 name                     : #"kai"
 description              : "industrial 3D graphic technical solution"
 url                      : https://www.cedricliu.github.io
-baseurl                  : #/blog
+baseurl                  : ""
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
