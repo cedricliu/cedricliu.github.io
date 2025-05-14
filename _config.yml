@@ -325,4 +325,5 @@ github:
 collections:
   portfolio:
     output: true
+    layout: portfolio
     permalink: /:collection/:path/

@@ -5,9 +5,12 @@
 .archive {
   margin-top: 1em;
   margin-bottom: 2em;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  float: none !important; // rmoeve float to right
 
   @include breakpoint($large) {
-    float: right;
+    float: none !important; //remove float to right
     width: calc(100% - #{$right-sidebar-width-narrow});
     padding-right: $right-sidebar-width-narrow;
   }
@@ -15,6 +18,7 @@
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
     padding-right: $right-sidebar-width;
+    float: none !important; //remove float to right
   }
 }
 
@@ -137,85 +141,24 @@
 
 .archive {
   .grid__wrapper {
-    /* extend grid elements to the right */
-
-    @include breakpoint($large) {
-      margin-right: -1 * $right-sidebar-width-narrow;
-    }
-
-    @include breakpoint($x-large) {
-      margin-right: -1 * $right-sidebar-width;
-    }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    width: 100%;
   }
 }
 
 .grid__item {
   margin-bottom: 2em;
-
-  @include breakpoint($small) {
-    float: left;
-    width: span(5 of 10);
-
-    &:nth-child(2n + 1) {
-      clear: both;
-      margin-left: 0;
-    }
-
-    &:nth-child(2n + 2) {
-      clear: none;
-      margin-left: gutter(of 10);
-    }
-  }
+  float: none !important;
+  width: 100%;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 
   @include breakpoint($medium) {
-    margin-left: 0; /* override margin*/
-    margin-right: 0; /* override margin*/
-    width: span(4 of 12);
-
-    &:nth-child(3n + 1) {
-      clear: both;
-      margin-left: 0;
-    }
-
-    &:nth-child(3n + 2) {
-      clear: none;
-      margin-left: gutter(1 of 12);
-    }
-
-    &:nth-child(3n + 3) {
-      clear: none;
-      margin-left: gutter(1 of 12);
-    }
+    width: calc(25% - 2em); // Four items per row, adjust gap as needed
   }
-
-  // @include breakpoint($medium) {
-  //   margin-left: 0; /* override margin*/
-  //   margin-right: 0; /* override margin*/
-  //   width: span(3 of 12);
-
-  //   &:nth-child(2n + 1) {
-  //     clear: none;
-  //   }
-
-  //   &:nth-child(4n + 1) {
-  //     clear: both;
-  //   }
-
-  //   &:nth-child(4n + 2) {
-  //     clear: none;
-  //     margin-left: gutter(1 of 12);
-  //   }
-
-  //   &:nth-child(4n + 3) {
-  //     clear: none;
-  //     margin-left: gutter(1 of 12);
-  //   }
-
-  //   &:nth-child(4n + 4) {
-  //     clear: none;
-  //     margin-left: gutter(1 of 12);
-  //   }
-  // }
 
   .page__meta {
     margin: 0 0 4px;
@@ -463,7 +406,7 @@
    Wide Pages
    ========================================================================== */
 
-  .wide {
+.wide {
   .archive {
     @include breakpoint($large) {
       padding-right: 0;
@@ -471,6 +414,32 @@
 
     @include breakpoint($x-large) {
       padding-right: 0;
+    }
+  }
+
+  /* Portfolio-specific centering and 4-column grid */
+  .archive {
+    width: 100% !important;
+    max-width: 1200px;
+    padding-right: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    float: none !important;
+  }
+
+  .archive .grid__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center !important;
+    gap: 2em;
+    width: 100%;
+  }
+
+  .archive .grid__item {
+    width: 100%;
+
+    @include breakpoint($medium) {
+      width: calc(25% - 2em); // Four items per row, adjust gap as needed
     }
   }
 }
@@ -481,4 +450,28 @@
 	.feature__wrapper {
 		display: inline-block;
 	}
+}
+
+/*
+   entries-grid
+   ========================================================================== */
+
+
+.entries-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; // changed from center to flex-start
+  gap: 2em;
+
+  .grid__item {
+    width: 100%;
+    margin-bottom: 2em;
+    float: none !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+
+    @include breakpoint($medium) {
+      width: calc(25% - 2em);
+    }
+  }
 }

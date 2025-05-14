@@ -1,6 +1,6 @@
 ---
 title: "Blender_GN_Experiment"
-layout: single
+layout: portfolio
 classes: wide
 published: true
 excerpt: "Experiment with geomtry node for point cloud simulations. Finding ways to visually communicate design in early prototyping phase."

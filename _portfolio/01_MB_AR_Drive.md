@@ -1,6 +1,6 @@
 ---
 title: "MB_AR_Drive"
-layout: single
+layout: portfolio
 classes: wide
 published: true
 excerpt: "Mercedes-Benz’s groundbreaking AR Drive concept, a project that redefines the driving experience by merging the physical and digital worlds through immersive Augmented Reality (AR)."

@@ -1,6 +1,6 @@
 ---
 title: "Honda Virtual Garage"
-layout: single
+layout: portfolio
 classes: wide
 published: true
 excerpt: "Honda Virtual Garage utilized digital twins, optimized CAD data to support all Honda's Marketing asset creation."
