@@ -20,6 +20,7 @@ title_separator          : "-"
 subtitle                 : "Notes on Industrial 3D graphic Technical Solutions" # site tagline that appears below site title in masthead
 name                     : #"kai"
 description              : "industrial 3D graphic technical solution"
+css                      : "/assets/css/main.css"
 url                      : https://www.cedricliu.github.io
 baseurl                  : #/blog
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -167,6 +168,8 @@ footer:
 include:
   - .htaccess
   - _pages
+  - assets/css/main.scss
+  - _sass/custom.scss
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
